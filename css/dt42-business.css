@@ -1,0 +1,530 @@
+    /*******************
+    * global
+    *******************/
+    
+      html,body{
+        margin:0; 
+        padding:0;
+      }
+
+      p,
+      a,
+      li,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      button,
+      input{
+        font-family: Helvetica,"Georgia", Arial, sans-serif;
+      }
+
+      button{
+        border:none;
+      }
+
+      .contentContainer{
+        width:100%;
+      }
+
+      .center{
+        text-align:center;
+      }
+
+      .mask{
+        height:100%;
+        width:100%;
+        position:fixed; 
+        _position:absolute;
+        top:0; 
+        z-index:1; 
+      }
+
+      .row{
+        margin:0;
+      }
+
+      .marginBottom{
+        margin-bottom:10%;
+      }
+
+      #gotop{
+        display: none;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;    
+        padding: 8px 13px;    
+        font-size: 20px;
+        background: #C55754;
+        color: white;
+        cursor: pointer;
+        border-radius:5px;
+      }
+
+      /******************* 
+       * navbar
+       *******************/
+
+      .navbar-default{
+        background-color:#FBFBFB;
+        border-bottom: 3px solid #C55754; 
+      }
+
+      .navbar-default .navbar-nav>li>a{
+        color:#C55754;
+      }
+
+      .navbar-default .navbar-nav>li>a:hover{
+        color:#C55754;
+      }
+
+      .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+        color:#FFF;
+        background-color:#C55754;
+      }
+
+      .navbar-brand{
+        font-size:1.5em;
+      }
+
+      #navlogo{
+        padding-top:10px;
+      }
+
+      #navlogo img{
+        width:50%;
+        float:right;
+      }
+
+      #topTab{
+       float:right;
+      }
+
+      .navbar-collapse .collapse .in ul:after{
+        float:left;
+      }
+
+      .navbar-default .navbar-toggle .icon-bar{
+        background-color:#C55754;
+      }
+
+      .navbar-default .navbar-toggle{
+        border:none;
+        border-radius:0px;
+        margin-top:9px;
+      }
+
+      .navbar-default .navbar-collapse, .navbar-default .navbar-form{
+        border:none;
+      }
+
+      /******************* 
+      * wrap1 
+      *******************/
+
+      #topRow{
+        padding:270px 0px 0px 0px;
+        text-align:center;
+      }
+
+      #topRow h1{
+        font-size:6em;
+        color:#FFF;
+        padding-top:20%;
+        margin-bottom:10px;
+        font-weight:bold;
+      }
+
+      #topRow p{
+        font-size:1.2em;
+        color:#FFF;
+        margin-bottom:15px;
+      }
+
+      #toptitle{
+        margin-bottom:100px;
+      }
+
+      #wrapper{
+        background: url('../img/background_business_cover.jpg') no-repeat   center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      #learnmore1{
+        background-color: transparent;
+        color:rgba(255,255,255,0.9);
+        border: 1px solid rgba(255,255,255,0.3);
+        padding:10px 14px;
+        letter-spacing: 2.5px;
+      }
+
+      #learnmore1:hover {
+        background-color: rgba(255,255,255,0.1);
+        border: 1px solid rgba(255,255,255,0.3);
+        color:#FFF;
+      }
+
+      #learnmore1:active {
+        background-color: #C55754;
+        border: none;
+      }
+
+      .submit{
+        margin-top:3em;
+      }
+
+
+      /******************* 
+      * wrap2
+      *******************/
+
+      #wrapper2{
+        background-color:#FFF;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      #wrapper2 p{
+        font-size:1.2em;
+      }
+
+      .wrap2title{
+        color:#C55754;
+        padding:150px 0 150px 0;
+        font-size:110%;
+        line-height:1.3em;
+        letter-spacing: 10px;
+      }
+
+      #about{
+        width:100%;
+        padding:0;
+        margin:auto;
+      }
+
+      .abouttitle{
+        width:100%;
+        background-size: cover;
+        padding:0;
+        margin:auto;
+        height:350px;
+      }
+
+      .dark-background {
+        background-color:#C55754;
+        color:#FFF;
+      }
+
+      .white-background {
+        background-color:#FAFAFA;
+        color:#C55754;
+      }
+
+      #cloud{
+        background: url('../img/background-cloud.png') no-repeat   center center fixed;
+      }
+
+      #art{
+        background: url('../img/background-art.png') no-repeat   center center fixed;
+      }
+
+      #realtime{
+        background: url('../img/background-realtime.png') no-repeat   center center fixed;
+      }
+
+
+      #introCloud{
+        margin-top:100px;
+        margin-bottom:100px;
+      }
+
+      #introArt{
+        margin-top:100px;
+        margin-bottom:100px;
+      }
+
+      #introRealtime{
+        margin-top:100px;
+        margin-bottom:100px;
+      }
+
+      .intro{
+        line-height:2em;
+      }
+
+      #artimg{
+        margin-top:30px;
+        width:100%;
+        max-width:500px;
+        min-width:240px;
+      }
+
+      #life_save{
+        width:100%;
+      }
+
+      #cloudimg{
+        margin-top:30px;
+        width:100%;
+        max-width:500px;
+        min-width:240px;
+      }
+
+      #lastintro{
+        width:100%;
+        padding:0;
+        margin:auto;
+      }
+
+      .lasttitle{
+        color:#C55754;
+        margin:200px 20px 30px 20px;
+        font-size:105%;
+        line-height:1.5em;
+        letter-spacing: 8px;
+      }
+
+      #lastintrotitle{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding:0;
+        margin:auto;
+        height:500px;
+        text-align:center;
+      }
+
+      .learnmore2{
+        background-color: #C55754;
+        border: none;
+        color:#FFF;
+        padding:10px 12px;
+        letter-spacing: 2px;
+      }
+
+      .learnmore2:hover {
+        background-color: #C55754;
+        color:#FFF;
+      }
+
+      .learnmore2:active{
+        background-color: #8C3837;
+        color:#FFF;
+      }
+
+      .learnmore2:focus {
+        color:#FFF;
+      }
+
+
+      
+
+
+      /******************* 
+      * wrap3 
+      *******************/
+
+
+      #footer{
+        position:relative;
+        right:0;
+        bottom:0;
+      }
+
+      #footer p{
+        margin:0;
+      }
+
+      .copyright{
+        background-color:#212121;
+        line-height:50px;
+        color:#C55754;
+        text-align:center;
+        font-weight:bold;
+      }
+
+      /******************* 
+      * technology 
+      *******************/
+
+      .top{
+        background-color:#fff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      .floatright{
+        float:right;
+      }
+
+      .column{
+        padding:270px 0px 0px 0px;
+        text-align:center;
+        height:100%;
+      }
+
+      .column1{
+        background:#C55754;
+      }
+
+      .column2{
+        background:#FAFAFA;
+      }
+
+      .column1 h1{
+        font-size:4.3em;
+        color:#FFF;
+        margin:20% 15px 15px 15px;
+        font-weight:bold;
+      }
+
+      .column1 h3{
+        font-size:1.8em;
+        color:#FFF;
+        margin:15px;
+        font-weight:bold;
+      }
+
+      .column1 p{
+        font-size:1em;
+        color:#FFF;
+        margin: 30% 30px 15px 30px;
+      }
+
+      .column2 h1{
+        font-size:4.3em;
+        color:#C55754;
+        margin:20% 15px 15px 15px;
+        font-weight:bold;
+      }
+
+      .column2 p{
+        font-size:1em;
+        color:#C55754;
+        margin: 30% 30px 15px 30px;
+      }
+
+      .column2 h3{
+        font-size:1.8em;
+        color:#C55754;
+        margin:15px;
+        font-weight:bold;
+      }
+
+      #comparewrapper{
+        background-color:#FAFAFA;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      #compare{
+        background-color:#FFF;
+        width:100%;
+        padding:0;
+        margin:auto;
+      }
+
+      .th{
+        font-size:1.8em;
+        height:130px;
+        text-align:center;
+        line-height:130px;
+        margin:0;
+      }
+
+      .td{
+        font-size:1.2em;
+        height:100px;
+        text-align:center;
+        line-height:100px;
+        margin:0;
+      }
+
+      .marginzero{
+        margin:0;
+      }
+
+      #comparelogo{
+        width:50px;
+        height:50px;
+        display: block;
+        margin: 40px auto;
+      }
+
+      /******************* 
+      * solution 
+      *******************/
+
+      .machinevision{
+        background:url('../img/background_machinevision_cover.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+
+      .paddingzero{
+        padding:0px;
+      }
+
+      .opacity{
+        opacity: .95; 
+      }
+
+      #downloaddiv{
+        width:100%;
+        padding:0;
+        margin:auto;
+      }
+
+      #downloadbackground h1{
+        color:#C55754;
+        margin:200px 20px 30px 20px;
+        font-size:2em;
+        font-weight:bold;
+        line-height:1.4em;
+        letter-spacing:2px;
+      }
+      
+      #downloadbackground p{
+        color:#C55754;
+        margin:50px;
+        font-size:1em;
+        line-height:2em;
+        letter-spacing:2px;
+      }
+
+      #downloadbackground{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding:0;
+        margin:auto;
+        text-align:center;
+      }
+
+      #downloadbtn{
+        background-color: #C55754;
+        border: none;
+        color:#FFF;
+        padding:10px 12px;
+        margin-bottom:150px;
+        letter-spacing: 2px;
+      }
+
+      #downloadbtn:active {
+        background-color: #8C3837;
+        border: none;
+      }
