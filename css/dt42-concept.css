@@ -68,7 +68,7 @@
 
       .navbar-default{
         background-color: transparent;
-        border-bottom: 3px solid #C55754; 
+        border-bottom: none; 
       }
 
       .navbar-default .navbar-nav>li>a{
