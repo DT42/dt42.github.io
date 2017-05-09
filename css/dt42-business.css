@@ -216,59 +216,26 @@
         height:350px;
       }
 
-      .red-background {
-        background: linear-gradient(to bottom right, #913A3A, #BB5350);
+      .dark-background {
+        background-color:#C55754;
         color:#FFF;
       }
 
       .white-background {
         background-color:#FAFAFA;
-        color: black;
-      }
-
-      .blue-background {
-        background: linear-gradient(to bottom right, #18306D, #296B8E);
-        color:#FFF;
+        color:#C55754;
       }
 
       #cloud{
-        background: url('../img/new-preview-02.png') no-repeat   center center fixed;
-        background-size: contain;
+        background: url('../img/background-cloud.png') no-repeat   center center fixed;
       }
 
-      #end{
-        background: url('../img/new-preview-03.png') no-repeat   center center fixed;
-        background-size: contain;
+      #art{
+        background: url('../img/background-art.png') no-repeat   center center fixed;
       }
 
-      #customize{
-        background: url('../img/new-preview-04.png') no-repeat   center center fixed;
-        background-size: contain;
-      }
-
-      #three{
-        background: url('../img/new-preview-06.png') no-repeat   center center fixed;
-        background-size: contain;
-      }
-
-      #object{
-        background: url('../img/new-preview-07.png') no-repeat   center center fixed;
-        background-size: contain;
-      }
-
-      #behavior{
-        background: url('../img/new-preview-08.png') no-repeat   center center fixed;
-        background-size: contain;
-      }
-
-      #algorithm{
-        background: url('../img/new-preview-09.png') no-repeat   center center fixed;
-        background-size: contain;
-      }
-
-      #competitor{
-        background: url('../img/new-preview-10.png') no-repeat   center center fixed;
-        background-size: contain;
+      #realtime{
+        background: url('../img/background-realtime.png') no-repeat   center center fixed;
       }
 
 
@@ -560,12 +527,4 @@
       #downloadbtn:active {
         background-color: #8C3837;
         border: none;
-      }
-
-      /******************* 
-      * development
-      *******************/
-
-      .hide {
-        visibility: hidden;
       }
