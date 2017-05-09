@@ -246,6 +246,16 @@
         background-size: contain;
       }
 
+      #three{
+        background: url('../img/new-preview-06.png') no-repeat   center center fixed;
+        background-size: contain;
+      }
+
+      #object{
+        background: url('../img/new-preview-07.png') no-repeat   center center fixed;
+        background-size: contain;
+      }
+
       #behavior{
         background: url('../img/new-preview-08.png') no-repeat   center center fixed;
         background-size: contain;
