@@ -130,8 +130,8 @@ button {
  *******************/
 
 #topRow {
-  margin-top: 50vh;
-  transform: translateY(-50%);
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
 #topRow h1 {
@@ -148,7 +148,7 @@ button {
 }
 
 #toptitle {
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
 }
 
 #wrapper {
@@ -629,6 +629,7 @@ div#slider figure {
 }
 
 .photo-container {
+  background-color: black;
   position: relative;
   padding-bottom: 35%;
   padding-top: 30px;
