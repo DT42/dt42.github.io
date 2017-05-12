@@ -628,6 +628,11 @@ div#slider figure {
   animation: 30s slidy infinite;
 }
 
+div#slider figure img {
+  padding-top: 50vh;
+  transform: translateY(-50%);
+}
+
 .photo-container {
   position: relative;
   padding-bottom: 35%;
