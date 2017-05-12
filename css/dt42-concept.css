@@ -64,6 +64,32 @@ button {
 }
 
 
+/*******************
+ * preloader
+ *******************/
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #032e3a;
+  z-index: 99999;
+  height: 100%;
+}
+
+#status {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 64px;
+  height: 64px;
+  margin: -32px 0 0 -32px;
+  padding: 0;
+}
+
+
 /******************* 
  * navbar
  *******************/
