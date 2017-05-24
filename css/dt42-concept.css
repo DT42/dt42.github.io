@@ -47,7 +47,7 @@ button {
 }
 
 .marginBottom {
-  margin-bottom: 10%;
+  margin-bottom: 1em;
 }
 
 #gotop {
@@ -288,50 +288,45 @@ button {
 }
 
 #cloud {
-  background: url('../img/new-preview-02.png') no-repeat center center fixed;
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
 #end2end {
-  background: url('../img/new-preview-03.png') no-repeat center center fixed;
   background-size: contain;
 }
 
 #customize {
-  background: url('../img/new-preview-04.png') no-repeat center center fixed;
   background-size: contain;
 }
 
 #threefeats {
-  background: url('../img/new-preview-06.png') no-repeat center center;
   background-size: cover;
   height: 350px;
 }
 
 #object {
-  background: url('../img/new-preview-07.png') no-repeat center center fixed;
   background-size: contain;
 }
 
 #behavior {
-  background: url('../img/new-preview-08.png') no-repeat center center fixed;
   background-size: contain;
 }
 
 #algorithm {
-  background: url('../img/new-preview-09.png') no-repeat center center fixed;
   background-size: contain;
 }
 
 #competitor {
-  background: url('../img/new-preview-10.png') no-repeat center center;
   background-size: contain;
   height: 500px;
 }
 
 #introItem {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 10em;
+  margin-bottom: 10em;
 }
 
 .intro {
