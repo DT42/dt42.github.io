@@ -160,14 +160,22 @@ button {
   margin-bottom: 70px;
 }
 
-#topRow h1 {
+
+#centerRow {
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+
+#topRow h1,
+#centerRow h1 {
   font-size: 2em;
   color: #C55754;
   padding-top: 20%;
   font-weight: bold;
 }
 
-#topRow p {
+#topRow p,
+#centerRow p {
   font-size: 1.5em;
   color: #FFF;
   margin-bottom: 15px;
