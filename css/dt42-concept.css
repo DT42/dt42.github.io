@@ -2,6 +2,11 @@
  * global
  *******************/
 
+@font-face {
+  font-family: "Myriad Pro";
+  src: url('fonts/MyriadPro-Regular.ttf');
+}
+
 html,
 body {
   margin: 0;
@@ -18,7 +23,7 @@ h4,
 h5,
 button,
 input {
-  font-family: Helvetica, "Georgia", Arial, sans-serif;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
 
 button {
@@ -295,27 +300,56 @@ button {
 }
 
 #end2end {
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
 #customize {
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
 #threefeats {
+  /* display: flex;
+  justify-content: space-around; */
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: cover;
-  height: 350px;
+}
+
+#threefeats img {
+  height: 39px;
+  width: 39px;
+  margin-bottom: 3em;
+}
+
+.feats {
+  text-align: center;
+  margin: 3em auto 3em;
 }
 
 #object {
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
 #behavior {
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
 #algorithm {
+  display: flex;
+  align-items: center;
+  padding: 5em 0 5em;
   background-size: contain;
 }
 
@@ -612,29 +646,35 @@ button {
   0% {
     left: 0%;
   }
-  20% {
+  15% {
     left: 0%;
   }
-  25% {
+  20% {
     left: -100%;
   }
-  45% {
+  35% {
     left: -100%;
   }
-  50% {
+  40% {
     left: -200%;
   }
-  70% {
+  55% {
     left: -200%;
+  }
+  60% {
+    left: -300%;
   }
   75% {
     left: -300%;
   }
+  80% {
+    left: -400%;
+  }
   95% {
-    left: -300%;
+    left: -400%;
   }
   100% {
-    left: -400%;
+    left: 0%;
   }
 }
 
