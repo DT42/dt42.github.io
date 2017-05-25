@@ -68,6 +68,14 @@ button {
   border-radius: 5px;
 }
 
+/*******************
+ * table
+ *******************/
+table {
+  background: transparent;
+}
+
+
 
 /*******************
  * preloader
@@ -354,8 +362,39 @@ button {
 }
 
 #competitor {
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
   background-size: contain;
-  height: 500px;
+  padding: 5em 10em 5em 10em;
+}
+
+#competitor th,
+#competitor td {
+  padding: 1em 1em 1em 1em;
+  border: 0.2em solid transparent;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  background-clip: padding-box;
+}
+
+#competitor * {
+  margin-bottom: 1em;
+}
+
+#competitor td {
+  min-width: 6em;
+}
+
+#epeuva {
+  width: 100px;
+  margin: 0;
+}
+
+#competitor td img:not(#epeuva) {
+  width: 1.5em;
+  height: 1.5em;
 }
 
 #introItem {
