@@ -183,7 +183,7 @@ table {
 #centerRow h1 {
   font-size: 2em;
   color: #C55754;
-  padding-top: 20%;
+  margin-top: 0;
   font-weight: bold;
 }
 
