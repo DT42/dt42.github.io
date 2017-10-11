@@ -1,28 +1,36 @@
+$(window).load(function() {
 
-    $(".contentContainer").css("min-height", $(window).height());
-    $("#landing").css("height", $(window).height());
-    $(".column").css("height", $(window).height());
-    
+  // will first fade out the loading animation 
+  $("#status").fadeOut("slow");
 
-    $(function(){
+  // will fade out the whole DIV that covers the website. 
+  $("#preloader").delay(500).fadeOut("slow").remove();
+
+})
+
+$(".contentContainer").css("min-height", $(window).height());
+$("#landing").css("height", $(window).height());
+$(".column").css("height", $(window).height());
 
 
-      $("#learnmore1").click(function(){
-        $('html,body').animate({scrollTop:$('#about').offset().top},400);
-      });
+$(function() {
 
-      $("#gotop").click(function(){
-          jQuery("html,body").animate({
-            scrollTop:0
-          },300);
-      });
-      $(window).scroll(function() {
-          if ( $(this).scrollTop() > 100){
-              $('#gotop').fadeIn("fast");
-            } 
-          else {
-              $('#gotop').stop().fadeOut("fast");
-            }
-      });
+  $("#learnmore1").click(function() {
+    $('html,body').animate({ scrollTop: $('#about').offset().top }, 400);
+  });
 
-    });
+  $("#gotop").click(function() {
+    jQuery("html,body").animate({
+      scrollTop: 0
+    }, 300);
+  });
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#gotop').fadeIn("fast");
+    } else {
+      $('#gotop').stop().fadeOut("fast");
+    }
+  });
+
+});
