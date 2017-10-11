@@ -11,6 +11,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-size: 2.9px;
 }
 
 p,
@@ -25,6 +26,18 @@ button,
 input {
   font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 }
+
+/*h1 {
+  font-size: 12em;
+}
+
+h2 {
+  font-size: 9em;
+}
+
+p {
+  font-size: 6em;
+}*/
 
 button {
   border: none;
@@ -49,6 +62,18 @@ button {
 
 .row {
   margin: 0;
+}
+
+.row h1 {
+  font-size: 12em;
+}
+
+.row h2 {
+  font-size: 9em;
+}
+
+.row p {
+  font-size: 6em;
 }
 
 .marginBottom {
@@ -114,6 +139,7 @@ table {
 
 .navbar-default .navbar-nav>li>a {
   color: #C55754;
+  font-size: 7.5em;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -181,15 +207,15 @@ table {
 
 #topRow h1,
 #centerRow h1 {
-  font-size: 2em;
+  font-size: 12em;
+  font-weight: bold;
   color: #C55754;
   margin-top: 0;
-  font-weight: bold;
 }
 
-#topRow p,
-#centerRow p {
-  font-size: 1.5em;
+#topRow h2,
+#centerRow h2 {
+  font-size: 9em;
   color: #FFF;
   margin-bottom: 15px;
 }
@@ -212,6 +238,7 @@ table {
   color: #FFF;
   padding: 10px 14px;
   letter-spacing: 2.5px;
+  font-size: 10em;
 }
 
 #learnmore1:hover {
@@ -259,16 +286,14 @@ table {
   background-size: cover;
 }
 
-#wrapper2 p {
+#wrapper2 > p {
   font-size: 1.2em;
 }
 
 .wrap2title {
   color: black;
+  font-weight: Normal;
   padding: 150px 0 150px 0;
-  font-size: 110%;
-  line-height: 1.3em;
-  letter-spacing: 10px;
 }
 
 #slogan {
@@ -434,9 +459,6 @@ table {
 .tryit-title {
   color: #FFF;
   margin: 200px 20px 30px 20px;
-  font-size: 105%;
-  line-height: 1.5em;
-  letter-spacing: 8px;
 }
 
 #tryitfree {
@@ -456,6 +478,7 @@ table {
   color: #FFF;
   padding: 10px 12px;
   letter-spacing: 2px;
+  font-size: 9em;
 }
 
 .learnmore2:hover {
