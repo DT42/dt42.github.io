@@ -27,17 +27,9 @@ input {
   font-family: "Myriad-Pro";
 }
 
-/*h1 {
-  font-size: 12em;
+h1, h2, h3 {
+  font-weight: bold;
 }
-
-h2 {
-  font-size: 9em;
-}
-
-p {
-  font-size: 6em;
-}*/
 
 button {
   border: none;
@@ -220,8 +212,8 @@ table {
   margin-bottom: 15px;
 }
 
-#toptitle {
-  /* margin-bottom: 100px; */
+#toptitle h2 {
+  font-weight: 500;
 }
 
 #wrapper {
@@ -238,7 +230,7 @@ table {
   color: #FFF;
   padding: 10px 14px;
   letter-spacing: 2.5px;
-  font-size: 10em;
+  font-size: 8em;
 }
 
 #learnmore1:hover {
@@ -516,6 +508,10 @@ table {
   color: #C55754;
   text-align: center;
   font-weight: bold;
+}
+
+.copyright P {
+  font-size: 5.5em;
 }
 
 
