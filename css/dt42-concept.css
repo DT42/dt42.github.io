@@ -3,8 +3,8 @@
  *******************/
 
 @font-face {
-  font-family: "Myriad Pro";
-  src: url('fonts/MyriadPro-Regular.ttf');
+  font-family: "Myriad-Pro";
+  src: url('../fonts/MyriadPro-Regular.otf') format("truetype");
 }
 
 html,
@@ -24,7 +24,7 @@ h4,
 h5,
 button,
 input {
-  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: "Myriad-Pro";
 }
 
 /*h1 {
