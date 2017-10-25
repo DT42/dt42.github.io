@@ -24,7 +24,8 @@ h4,
 h5,
 button,
 input {
-  font-family: "Myriad-Pro";
+  /*font-family: "Myriad-Pro";*/
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3 {
