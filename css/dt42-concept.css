@@ -124,9 +124,12 @@ table {
 /******************* 
  * navbar
  *******************/
+.navbar {
+  height: 55px;
+}
 
 .navbar-default {
-  background-color: transparent;
+  background-color: #212121;
   border-bottom: none;
 }
 
