@@ -640,6 +640,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1a618', end
 	color: #55393d;
 	margin-bottom: 10px;
 }
+#contact-section input {
+	color: #000000;
+}
 label {
 	font-size: 12px;
 	font-weight: 400;
