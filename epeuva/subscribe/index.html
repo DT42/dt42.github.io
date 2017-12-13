@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subscribe Epeuva!</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-serialize-object/2.5.0/jquery.serialize-object.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.4/moment.min.js"></script>
+</head>
+
+<body>
+  <h1>Epeuva</h1>
+  <p>No Coding needed</p>
+  <p>Use your own data</p>
+  <p>Build your own AI</p>
+  <form name="the-form" id="the-form">
+    <label for="name">Name</label>
+    <input id="name" name="name">
+    <br />
+    <label for="email">
+      <em>Your</em> email address</label>
+    <input id="email" name="email" type="email" value="" required>
+    <span id="email-invalid" style="display:none">
+      Must be a valid email address</span>
+    <br />
+    <label for="message">Tell us about your expectation (optional)</label>
+    <br />
+    <textarea id="message" name="message"></textarea>
+    <br />
+    <button type="submit" id="submit-form">Submit</button>
+  </form>
+
+  <div style="display:none;" id="thankyou_message">
+    <h2>
+      <em>Thanks</em> for contacting us! We will get back to you soon!</h2>
+  </div>
+
+  <script data-cfasync="false" type="text/javascript">
+    const $form = $('form#the-form');
+    const url = 'https://script.google.com/macros/s/AKfycbxp1jHj7NNGPfWQ1hSrhza1U2ESmyRPjml3o8P9ifC3f_vvjq-T/exec';
+    const handleSuccess = function() {
+      console.log('success');
+    };
+    $('#submit-form')
+      .on('click', function (e) {
+        const data = $form.serializeObject();
+        const date = new Date();
+        const formattedDate = moment(date).format();
+        data.timestamp = formattedDate;
+        e.preventDefault();
+        var jqxhr = $.ajax({
+          url,
+          method: "GET",
+          dataType: "json",
+          data,
+      })
+      .done(handleSuccess);
+    });
+  </script>
+
+</body>
+
+</html>
