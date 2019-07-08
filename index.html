@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DT42 - Free your deep learning research from engineering setup !</title>
+<meta name="description" content="">
+<meta name="author" content="">
+<meta property="og:title" content="DT42, Make AI Easy" />
+<meta property="og:description" content="DT42 provides AI solutions for AIoT, smart city and retail. Our python-based SDK makes it easy to integrate edge AI with the existing systems. The Epeuva platform helps users without engineering background train their own AI models from customized data set, and its built-in labeling engine can cut-off 90% of the labeling efforts. Contact us today and start using AI to improve your applications.">
+<meta property="og:url" content="http://www.dt42.io/">
+<meta property="og:image" content="http://www.dt42.io/img/logo.gif">
+<meta property="og:image:type" content="image/gif">
+<meta property="og:image:width" content="200">
+<meta property="og:image:height" content="200">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<!--
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+-->
+
+<!-- FontAwesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="preloader">
+  <div id="status">
+    <img src="img/logo.gif" height="64" width="64" alt="">
+    Loading...
+  </div>
+</div>
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-hm.png" witth="24" height="24">
+        <!--
+        <i class="fa fa-flag-checkered fa-flip-horizontal"></i> DT42<strong></strong>
+        -->
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
+        <!--<li><a href="#news-section" class="page-scroll">News</a></li>-->
+        <li id="gonews">
+          <a href="https://medium.com/dt42/tagged/news" target="_blank" class="hidden-xs">News</a>
+          <a href="https://medium.com/dt42/tagged/news" target="_blank" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">News</a>
+        </li>
+        <li><a href="#technologies-section" class="page-scroll">Services</a></li>
+        <li><a href="#services-section" class="page-scroll">Applications</a></li>
+        <li><a href="#epeuva-section" class="page-scroll">Epeuva</a></li>
+        <!--<li><a href="#works-section" class="page-scroll">Portfolio</a></li>-->
+        <!--<li><a href="#about-section" class="page-scroll">About</a></li>-->
+        <!--<li><a href="#team-section" class="page-scroll">Team</a></li>-->
+        <!--<li><a href="#testimonials-section" class="page-scroll">Testimonials</a></li>-->
+        <li><a href="#partners-section" class="page-scroll">Partners</a></li>
+        <!--<li><a href="#awards-section" class="page-scroll">Awards</a></li>-->
+        <li><a href="#about-section" class="page-scroll">About</a></li>
+        <!--<li><a href="https://dt42.github.io/" target="_blank" class="page-scroll">Blog</a></li>-->
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <div class="container">
+      <h1>EASY AI SOLUTION</h1>
+      <h1>MORE AUTOMATION</h1>
+      <h1>LESS EFFORTS</h1>
+    <!--
+    <img src="img/logo.gif" width=15%>
+    <h1 class="wow fadeInDown"><strong><span class="color">DT42</span></strong></h1>
+    <h2 class="wow fadeInDown"><span class="color">Data, AI, IoT</span></h2>
+    <div class="col-md-12 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+      <p>With the AI solution provided by DT42, edge devices can recognize object, human behavior and anomaly events from images, videos, sensor data without relying on the cloud.</p>
+    </div>
+    <div class="col-md-12 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+      <p>Besides supporting enterprise customers, DT42 also open source the core engine, BerryNet, which is popular in education and IoT industries.</p>
+    </div>
+    -->
+    </div>
+  </div>
+</header>
+
+
+<!-- News Section -->
+<!--
+<div id="news-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2><strong>News</strong></h2>
+      <hr>
+    </div>
+    <div class="news">
+      <p><h4>2017-08-03</h4></p>
+      <p><a href="https://taipei.city.ai/" target="_blank"><h4>See you at Taipei AI first meet up! (8/13)</h4></a></p>
+      <p><h4>2016-08-28</h4></p>
+      <p><a href="https://www.gputechconf.com.tw/" target="_blank"><h4>Meet us at Nvidia GTC2016 Taipei (9/21 - 9/22)</h4></a></p>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- Services Section (old Technologies Section) -->
+<div id="technologies-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Services</h2>
+      <hr class="title-decorator">
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="techimg" src="img/technology/folder.png">
+      </div>
+      <div class="col-md-4 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <h3>Auto-labeling Platform</h3>
+        <a class="btn btn-default btn-lg" data-toggle="collapse" href="#detailLabel">See more...  <i class="fas fa-arrow-circle-right"></i></a>
+        <div class="collapse" id="detailLabel">
+          <p>AI engine to label data automatically and reduce the efforts of manual labeling by 10x.</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="techimg" src="img/technology/deep-learning.png">
+      </div>
+      <div class="col-md-4 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <h3>Training Without Engineer</h3>
+        <a class="btn btn-default btn-lg" data-toggle="collapse" href="#detailTraining">See more...  <i class="fas fa-arrow-circle-right"></i></a>
+        <div class="collapse" id="detailTraining">
+          <p> Easy-to-use web interface to help users train AI models without engineering knowledge. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-2 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="techimg" src="img/technology/raspberry-pi.png">
+      </div>
+      <div class="col-md-4 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <h3>Working On Every Device</h3>
+        <a class="btn btn-default btn-lg" data-toggle="collapse" href="#detailDevice">See more...  <i class="fas fa-arrow-circle-right"></i></a>
+        <div class="collapse" id="detailDevice">
+          <p>Ready-to-use optimization packages for AI models to meet your hardware choice.</p>
+        </div>
+      </div>
+      <div class="col-md-2 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="techimg" src="img/technology/ai.png">
+      </div>
+      <div class="col-md-4 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <h3>Consultant & Customizable AI</h3>
+        <a class="btn btn-default btn-lg" data-toggle="collapse" href="#detailConsult">See more...  <i class="fas fa-arrow-circle-right"></i></a>
+        <div class="collapse" id="detailConsult">
+          <p>Help you define the scenario, pick the best AI models and hardware, and customize AI to meet all you need.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr class="seperator">
+</div>
+
+
+<!-- Application Section (old Services Section) -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Applications</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonial" class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms">
+          <div class="item">
+            <h4>AI to make home a safer place</p>
+            <figure>
+              <img src="img/solution/home_iot.jpg" alt>
+            </figure>
+            <p class="quote">
+                The DT42 fall-detection engine can detect different status of human and raise alert if immediate assistent is required. No cloud is conneced, the edge AI engine not only protects your family but also your privacy.
+            </p>
+          </div>
+          <div class="item">
+            <h4>AI to create more friendly cities</p>
+            <figure>
+              <img src="img/solution/elderly.jpg" alt>
+            </figure>
+            <p class="quote">
+                The DT42 Epeuva platform can help users without any data or engineering background to train customized model from data easily. The auto-labeling engine can save 90% of the labeling efforts so developers can save time and create real great applications to make the cities more friendly to all citizens.
+            </p>
+          </div>
+          <div class="item">
+            <h4>AI to bring smarter experience</p>
+            <figure>
+              <img src="img/solution/retail.jpg" alt>
+            </figure>
+            <p class="quote">Use edge AI engine for real-time people counting to control numbers of customers in the selected region of interests. The daily result is saved in database for future prediction and analysis. </p>
+          </div>
+          <div class="item">
+            <h4>AI to protect endaganded animals</p>
+            <figure>
+              <img src="img/solution/leopard_cat.jpg" alt>
+            </figure>
+            <p>
+                The DT42 Epeuva platform and its built-in labeling engine help researchers to train AI models from animal data easily. The model can deployed to edge AI gateway to provide real-time monitoring to avoid road-kill or other incidents.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="seperator">
+</div>
+
+<!-- Epeuva Section -->
+<div id="epeuva-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Epeuva</h2>
+      <hr class="title-decorator">
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <video width=100% controls>
+          <source src="video/epeuva.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="col-md-6 col-sm-12 service wow fadeInUp" data-wow-delay="200ms">
+        <!-- <img src="img/epeuva-logo.png" width=90%> -->
+        <p>Turn your data into AI applications on edge devices</p>
+        <!--
+        <a href="epeuva/index.html" target="_blank" class="btn btn-default btn-lg submit">Know More</a>
+        -->
+        <a class="btn btn-default btn-lg submit" data-toggle="collapse" href="#epeuvaForm">Know More</a>
+      </div>
+    </div>
+
+    <iframe name="hiddenFrame" class="hide"></iframe>
+
+    <div class="collapse" id="epeuvaForm">
+      <form action="https://dt42.us14.list-manage.com/subscribe/post?u=5f565a6ad5c19b82543a874c8&amp;id=25987d9d96" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="hiddenFrame" novalidate>
+        <div>
+          <p>Subscribe to get the latest news and trial quota</p>
+        </div>
+        <div class="form-group">
+          <input type="email" value="" name="EMAIL" class="form-control required email" id="mce-EMAIL" placeholder="Email (required)">
+        </div>
+        <div class="form-group">
+          <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="First Name">
+        </div>
+        <div class="form-group">
+          <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Last Name">
+        </div>
+        <button type="submit" class="btn btn-primary" id="epeuvaSubmit">Submit</button>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" id="epeuvaAlert">
+          <strong>Subscribe success!</strong> Thank you for interested in Epeuva.
+          <button type="button" class="close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_5f565a6ad5c19b82543a874c8_25987d9d96" tabindex="-1" value="">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <hr class="seperator">
+</div>
+
+
+<!-- Portfolio Section -->
+<!--
+<div id="works-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Our <strong>Portfolio</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diamcommodo nibh ante facilisis.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">All</a></li>
+            <li><a href="#" data-filter=".web">Web Design</a></li>
+            <li><a href="#" data-filter=".app">App Development</a></li>
+            <li><a href="#" data-filter=".branding">Branding</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="200ms">
+            <div class="hover-bg"> <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                Web Design
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="400ms">
+            <div class="hover-bg"> <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                App Development
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/02.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="600ms">
+            <div class="hover-bg"> <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+               Web Design
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/03.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="800ms">
+            <div class="hover-bg"> <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                Web Design
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/04.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1000ms">
+            <div class="hover-bg"> <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                App Development
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/05.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1200ms">
+            <div class="hover-bg"> <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                Branding
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 branding app">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1400ms">
+            <div class="hover-bg"> <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                App Development, Branding
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/07.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item wow fadeInUp" data-wow-delay="1600ms">
+            <div class="hover-bg"> <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+              <div class="hover-text">
+                <h4>Project Title</h4>
+                Web Design
+                <div class="clearfix"></div>
+                <i class="fa fa-plus"></i> </div>
+              <img src="img/portfolio/08.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- Team Section -->
+<!--
+<div id="team-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2><strong>Team</strong></h2>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div id="row">
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="200ms">
+        <div class="thumbnail"> <img src="img/team/bafu.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Bofu Chen</h3>
+            <p>Co-Founder / CTO</p>
+                        <ul class="list-inline">
+              <li><a href="https://tw.linkedin.com/in/bofuchen" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="http://github.com/bafu" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://twitter.com/bafuchen" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="400ms">
+        <div class="thumbnail"> <img src="img/team/tammy.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Tammy Yang Ph.D.</h3>
+            <p>Co-Founder / Director of Research</p>
+                        <ul class="list-inline">
+              <li><a href="https://www.linkedin.com/in/tammyyang" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://github.com/tammyyang" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="600ms">
+        <div class="thumbnail"> <img src="img/team/ning.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Ning Lu</h3>
+            <p>Head of Business Development</p>
+                        <ul class="list-inline">
+              <li><a href="https://www.facebook.com/iamningl" target="_blank"><i class="fa fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="800ms">
+        <div class="thumbnail"> <img src="img/team/jocelyn.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Jocelyn Chen Ph.D.</h3>
+            <p>Head of CV Research</p>
+                       <ul class="list-inline">
+              <li><a href="https://github.com/jocelyn802" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="1000ms">
+        <div class="thumbnail"> <img src="img/team/joseph.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Joseph Liu</h3>
+            <p>Director of Engineering</p>
+                        <ul class="list-inline">
+              <li><a href="http://github.com/hzliu123" target="_blank"><i class="fa fa-github"></i></a></li>
+              <li><a href="https://www.cs.ccu.edu.tw/~lhr89/" target="_blank"><i class="fa fa-globe"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 team wow fadeInUp" data-wow-delay="1200ms">
+        <div class="thumbnail"> <img src="img/team/sherry.jpg" alt="..." class="img-circle team-img">
+          <div class="caption">
+            <h3>Sherry Chung</h3>
+            <p>Data Scientist</p>
+                        <ul class="list-inline">
+              <li><a href="https://github.com/wcchung" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- Testimonials Section -->
+<!--
+<div id="testimonials-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>What our <strong>Clients</strong> say</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonial" class="owl-carousel owl-theme wow fadeInUp" data-wow-delay="200ms">
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p><strong>John DOE</strong>, CEO, Company.</p>
+          </div>
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p><strong>Jenny DOE</strong>, CEO, Company.</p>
+          </div>
+          <div class="item">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at duis sed dapibus leo nec ornare diam.</p>
+            <p><strong>John DOEn</strong>, CEO, Company.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
+<!-- Partners Section -->
+<div id="partners-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Hardware Partners</h2>
+      <hr class="title-decorator">
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="row row-eq-height">
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/nvidia.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/arm.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/intel.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/qualcomm.jpg">
+      </div>
+
+      <!--
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/audi.png">
+        <p>TBD</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/orange.png">
+        <p>TBD</p>
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/tomtom.png">
+        <p>TBD</p>
+      </div>
+      -->
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/kneron.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/aaeon.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/avalue.jpg">
+      </div>
+
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="img-responsive" src="img/partner/acti.jpg">
+      </div>
+    </div>
+  </div>
+
+  <hr class="seperator">
+</div>
+
+
+<!-- Awards Section -->
+<!--
+<div id="awards-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Awards</h2>
+      <hr class="title-decorator">
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2019-arm.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2019-intel-iot.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2019-intel-aiip.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2018-audi.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2018-orangefab.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2018-nvidia.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2017-tiec.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2017-nvidia.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2016-fiti.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2016-nvidia.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2016-pepper.png">
+      </div>
+    </div>
+  </div>
+  <hr class="seperator">
+</div>
+-->
+
+<div id="about-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>About DT42</h2>
+      <hr class="title-decorator">
+      <div class="clearfix"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12">
+        <p>DT42 team has strong backgrounds in AI technology and the embedded systems. Our expertise enables next generation machine vision on edge devices.</p>
+      </div>
+
+      <div class="col-md-5 col-sm-5 col-xs-12">
+        <div id="slider">
+          <figure>
+            <img src="img/photo/1.jpg" alt>
+            <img src="img/photo/2.jpg" alt>
+            <img src="img/photo/3.jpg" alt>
+            <img src="img/photo/4.jpg" alt>
+            <img src="img/photo/5.jpg" alt>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <h4> <br> We're winning awards! </h4>
+    <div class="row awards">
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2018-audi-w.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2017-tiec-w.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2016-fiti-w.png">
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-6 service wow fadeInUp" data-wow-delay="200ms">
+        <img class="awards img-responsive" src="img/award/award-2016-pepper-w.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<!--
+<div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title wow fadeInDown">
+      <h2>Contact</h2>
+      <hr class="title-decorator">
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="200ms">
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+        <p>7F-1, No.429, Guangfu S. Rd.<br>
+          Xinyi Dist., Taipei City 110<br>
+          Taiwan</p>
+
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p>contact@dt42.io</p>
+      </div>
+      <div class="col-md-4"><a href="https://github.com/DT42" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        <p>Read the source Luke</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2 wow fadeInUp" data-wow-delay="400ms">
+	<h3>Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+<!-- Footer Section -->
+<div class="center" id="footer">
+  <div class="row copyright">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <p>contact@dt42.io</p>
+    </div>
+
+   <div class="col-md-4 col-sm-4 col-xs-12">
+     <p>© 2019　<span>DT42</span>　Co.Ltd.</p>
+   </div>
+
+   <div class="col-md-4 col-sm-4 col-xs-12">
+     <ul class="nav navbar-nav navbar-center">
+       <li>
+         <a href="https://github.com/DT42" target="_blank"><i class="fab fa-github"></i></a>
+       </li>
+       <li>
+         <a href="https://twitter.com/dt42io" target="_blank"><i class="fab fa-twitter"></i></a>
+       </li>
+       <li>
+         <a href="https://medium.com/@dt42" target="_blank"><i class="fab fa-medium"></i></a>
+       </li>
+       <li>
+         <a href="https://www.linkedin.com/company/17887982" target="_blank"><i class="fab fa-linkedin"></i></a>
+       </li>
+       <li>
+         <a href="https://www.facebook.com/DT42-1193015097472418/" target="_blank"><i class="fab fa-facebook"></i></a>
+       </li>
+     </ul>
+   </div>
+  </div>
+</div>
+
+
+<!-- Portfolio Modals -->
+<!-- Use the modals below to showcase details about your portfolio projects! -->
+
+<!-- Portfolio Modal 1 -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/01-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 2 -->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/02-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 3 -->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/03-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 4 -->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/04-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 5 -->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/05-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 6 -->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/06-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 7 -->
+<div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/07-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Portfolio Modal 8 -->
+<div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"> </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <!-- Project Details Go Here -->
+            <h2>Project Title</h2>
+            <p class="item-intro">Lorem ipsum dolor sit amet consectetur.</p>
+            <img class="img-responsive img-centered" src="img/portfolio/08-preview.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet, sea essent iisque iudicabit te, pro no justo delicata inimicus, et oblique docendi laboramus eum. Ei minim fabulas pertinacia pro, graeco urbanitas reformidans quo id. Error congue tacimates ei vis, facer facete ius cu, audiam prodesset pri ut. Id semper fuisset vel, has dolorum menandri eu.</p>
+            <ul class="list-inline">
+              <li><strong>Client</strong>: John Doe</li>
+              <li><strong>Category</strong>: Web Design</li>
+            </ul>
+            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+
+<!-- Javascripts
+    ================================================== -->
+<script type="text/javascript" src="js/main.js"></script>
+
+<!-- Google Analysis -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-83223599-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script>
+/* Show subscribe success message after submit is pressed. */
+$('#epeuvaSubmit').click(function() {
+  $('#epeuvaAlert').addClass('in');
+});
+
+$('.close').click(function () {
+  $(this).parent().removeClass('in');
+});
+</script>
+</body>
+</html>
